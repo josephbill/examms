@@ -1,5 +1,6 @@
 package com.example.josephbill.examms;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -13,6 +14,10 @@ public class prisubmaths extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_prisubmaths);
+    }
+    public void view (View v){
+        Intent intent = new Intent(this,primathview.class);
+        startActivity(intent);
     }
 
 }

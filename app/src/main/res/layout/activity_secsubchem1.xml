@@ -1,9 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.josephbill.examms.secsubchem1">
+    android:background="#ffffff"
+    tools:context="com.example.josephbill.examms.secsubcre1">
 
-</android.support.constraint.ConstraintLayout>
+    <ImageButton
+        android:id="@+id/upload"
+        android:onClick="upload"
+        android:layout_width="371dp"
+        android:layout_height="114dp"
+        android:gravity="center"
+        android:background="#ffffff"
+        app:srcCompat="@drawable/upload"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="-12dp"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/view"
+        android:layout_width="fill_parent"
+        android:layout_height="88dp"
+        android:onClick="view"
+        android:background="#ffffff"
+        app:srcCompat="@drawable/newv"
+        tools:layout_editor_absoluteY="118dp"
+        tools:layout_editor_absoluteX="16dp"
+        android:layout_above="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:textColor="#FFD600"
+        android:textSize="19dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        tools:layout_editor_absoluteY="45dp"
+        tools:layout_editor_absoluteX="4dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="113dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:textColor="#FFD600"
+        android:textSize="19dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        tools:layout_editor_absoluteY="207dp"
+        tools:layout_editor_absoluteX="0dp"
+
+        android:layout_above="@+id/upload"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

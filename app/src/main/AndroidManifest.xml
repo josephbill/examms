@@ -79,7 +79,36 @@
         <activity android:name=".secsubhist2" />
         <activity android:name=".secsubkiswa2" />
         <activity android:name=".secsubmaths2" />
-        <activity android:name=".secsubphy2"></activity>
+        <activity android:name=".secsubphy2" />
+        <activity android:name=".priengview" />
+        <activity android:name=".prikiswaview" />
+        <activity android:name=".primathview" />
+        <activity android:name=".priscienview" />
+        <activity android:name=".prisscview" />
+        <activity android:name=".agric1view" />
+        <activity android:name=".agric2view" />
+        <activity android:name=".bio1view" />
+        <activity android:name=".bio2view" />
+        <activity android:name=".busi1view" />
+        <activity android:name=".busi2view" />
+        <activity android:name=".chem1view" />
+        <activity android:name=".chem2view" />
+        <activity android:name=".comps1view" />
+        <activity android:name=".comps2view" />
+        <activity android:name=".cre1view" />
+        <activity android:name=".cre2view" />
+        <activity android:name=".eng1view" />
+        <activity android:name=".eng2view" />
+        <activity android:name=".geo1view" />
+        <activity android:name=".geo2view" />
+        <activity android:name=".hist1view" />
+        <activity android:name=".hist2view" />
+        <activity android:name=".kiswa1view" />
+        <activity android:name=".kiswa2view" />
+        <activity android:name=".math1view" />
+        <activity android:name=".math2view" />
+        <activity android:name=".phy1view" />
+        <activity android:name=".phy2view"></activity>
     </application>
 
 </manifest>
