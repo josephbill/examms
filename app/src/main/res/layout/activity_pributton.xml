@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/school"
+    tools:context="com.example.josephbill.examms.MainActivity">
+
+
+    <Button
+        android:id="@+id/English"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="English"
+        android:onClick="English"
+        android:background="@drawable/btnshapes"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="72dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/Kiswahili"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Kiswahili"
+        android:onClick="Kiswahili"
+        android:background="@drawable/btnshapes"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="135dp"
+        android:layout_below="@+id/English"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/Maths"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Mathematics"
+        android:onClick="Mathematics"
+
+        android:background="@drawable/btnshapes"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="191dp"
+        android:layout_below="@+id/Kiswahili"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/ssc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="social studies/RE"
+        android:onClick="ssc"
+        android:background="@drawable/btnshapes"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="254dp"
+        android:layout_below="@+id/Maths"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/science"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Science"
+        android:onClick="science"
+        android:background="@drawable/btnshapes"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="254dp"
+        android:layout_below="@+id/ssc"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

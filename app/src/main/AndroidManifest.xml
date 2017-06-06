@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.josephbill.examms">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pen"
+        android:label="KeExams"
+        android:roundIcon="@drawable/pen"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".pributton"
+            android:label="@string/title_activity_pributton"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".secbutton"
+            android:label="@string/title_activity_secbutton"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".prisubeng"
+            android:label="@string/title_activity_prisubeng"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".prisubkiswa"
+            android:label="@string/title_activity_prisubkiswa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".prisubmaths"
+            android:label="@string/title_activity_prisubmaths"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".prisubssc"
+            android:label="@string/title_activity_prisubssc"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".prisubscien"
+            android:label="@string/title_activity_prisubscien"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".secsubeng" />
+        <activity android:name=".secsubkiswa" />
+        <activity android:name=".secsubmaths" />
+        <activity android:name=".secsubbio" />
+        <activity android:name=".secsubphy" />
+        <activity android:name=".secsubchem" />
+        <activity android:name=".secsubbusi" />
+        <activity android:name=".secsubagric" />
+        <activity android:name=".secsubcomps" />
+        <activity android:name=".secsubhist" />
+        <activity android:name=".secsubgeo" />
+        <activity android:name=".secsubcre" />
+        <activity android:name=".secsubagric1" />
+        <activity android:name=".secsubbio1" />
+        <activity android:name=".secsubbusi1" />
+        <activity android:name=".secsubchem1" />
+        <activity android:name=".secsubcomps1" />
+        <activity android:name=".secsubcre1" />
+        <activity android:name=".secsubeng1" />
+        <activity android:name=".secsubgeo1" />
+        <activity android:name=".secsubhist1" />
+        <activity android:name=".secsubkiswa1" />
+        <activity android:name=".secsubmaths1" />
+        <activity android:name=".secsubphy1" />
+        <activity android:name=".secsubagric2" />
+        <activity android:name=".secsubbio2" />
+        <activity android:name=".secsubbusi2" />
+        <activity android:name=".secsubchem2" />
+        <activity android:name=".secsubcomps2" />
+        <activity android:name=".secsubcre2" />
+        <activity android:name=".secsubeng2" />
+        <activity android:name=".secsubgeo2" />
+        <activity android:name=".secsubhist2" />
+        <activity android:name=".secsubkiswa2" />
+        <activity android:name=".secsubmaths2" />
+        <activity android:name=".secsubphy2"></activity>
+    </application>
+
+</manifest>

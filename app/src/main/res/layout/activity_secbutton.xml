@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/school"
+    tools:context="com.example.josephbill.examms.MainActivity">
+
+
+    <Button
+        android:id="@+id/English"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="English"
+        android:onClick="English"
+        android:background="@drawable/btnshapes"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="72dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/Kiswahili"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Kiswahili"
+        android:onClick="Kiswahili"
+        android:background="@drawable/btnshapes"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="135dp"
+        android:layout_below="@+id/English"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/Maths"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Mathematics"
+        android:onClick="Mathematics"
+
+        android:background="@drawable/btnshapes"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="191dp"
+        android:layout_below="@+id/Kiswahili"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/Biology"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Biology"
+        android:onClick="bio"
+        android:background="@drawable/btnshapes"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="254dp"
+        android:layout_below="@+id/Maths"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/Physics"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Physics"
+        android:onClick="physics"
+        android:background="@drawable/btnshapes"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="254dp"
+        android:layout_below="@+id/Biology"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/Chemistry"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Chemistry"
+        android:onClick="chem"
+        android:background="@drawable/btnshapes"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="254dp"
+        android:layout_below="@+id/Physics"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/History"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="History"
+        android:onClick="history"
+        android:background="@drawable/btnshapes"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="254dp"
+        android:layout_below="@+id/Chemistry"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/Geography"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Geography"
+        android:onClick="Geography"
+        android:background="@drawable/btnshapes"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="254dp"
+        android:layout_below="@+id/History"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/Business"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Business"
+        android:onClick="busi"
+        android:background="@drawable/btnshapes"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="254dp"
+        android:layout_below="@+id/Geography"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/comps"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Computer Studies"
+        android:onClick="compss"
+        android:background="@drawable/btnshapes"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="254dp"
+        android:layout_below="@+id/Business"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/Agric"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Agriculture"
+        android:onClick="Agricc"
+        android:background="@drawable/btnshapes"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="254dp"
+        android:layout_below="@+id/comps"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:id="@+id/cre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="CRE"
+        android:onClick="cre"
+        android:background="@drawable/btnshapes"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="254dp"
+        android:layout_below="@+id/Agric"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">KeExams</string>
+    <string name="title_activity_pributton">pributton</string>
+    <string name="title_activity_secbutton">secbutton</string>
+    <string name="title_activity_prisubeng">prisubeng</string>
+    <string name="title_activity_prisubkiswa">prisubkiswa</string>
+    <string name="title_activity_prisubmaths">prisubmaths</string>
+    <string name="title_activity_prisubssc">prisubssc</string>
+    <string name="title_activity_prisubscien">prisubscien</string>
+</resources>
