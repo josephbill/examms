@@ -15,14 +15,12 @@
         android:layout_height="114dp"
         android:gravity="center"
         android:background="#ffffff"
-        app:srcCompat="@drawable/upload"
+        app:srcCompat="@drawable/down"
         tools:layout_editor_absoluteX="7dp"
         tools:layout_editor_absoluteY="-12dp"
+        android:layout_marginBottom="28dp"
         android:layout_above="@+id/textView"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_centerHorizontal="true" />
 
     <ImageButton
         android:id="@+id/view"
@@ -33,7 +31,8 @@
         app:srcCompat="@drawable/newv"
         tools:layout_editor_absoluteY="118dp"
         tools:layout_editor_absoluteX="16dp"
-        android:layout_above="@+id/textView3"
+        android:layout_marginTop="46dp"
+        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -41,17 +40,17 @@
         android:id="@+id/textView"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Upload"
+        android:text="Download"
         android:textColor="#FFD600"
-        android:textSize="19dp"
+        android:textSize="27dp"
         android:gravity="center"
         android:fontFamily="sans-serif-medium"
         tools:layout_editor_absoluteY="45dp"
         tools:layout_editor_absoluteX="4dp"
+        android:layout_marginBottom="103dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="113dp" />
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/textView3"
@@ -59,15 +58,16 @@
         android:layout_height="wrap_content"
         android:text="View"
         android:textColor="#FFD600"
-        android:textSize="19dp"
+        android:textSize="27dp"
         android:gravity="center"
         android:fontFamily="sans-serif-medium"
         tools:layout_editor_absoluteY="207dp"
         tools:layout_editor_absoluteX="0dp"
 
-        android:layout_above="@+id/upload"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_below="@+id/view"
+        android:layout_alignRight="@+id/upload"
+        android:layout_alignEnd="@+id/upload"
+        android:layout_marginTop="42dp" />
 
 
 </RelativeLayout>

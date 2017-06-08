@@ -2,10 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.josephbill.examms">
 
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/pen"
-        android:label="KeExams"
+        android:label=" KeExams"
         android:roundIcon="@drawable/pen"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -16,6 +21,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
         <activity
             android:name=".pributton"
             android:label="@string/title_activity_pributton"
@@ -108,7 +115,25 @@
         <activity android:name=".math1view" />
         <activity android:name=".math2view" />
         <activity android:name=".phy1view" />
-        <activity android:name=".phy2view"></activity>
+        <activity android:name=".phy2view" />
+        <activity android:name=".RegisterActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".UsersListActivity"
+            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>

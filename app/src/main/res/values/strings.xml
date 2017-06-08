@@ -7,4 +7,28 @@
     <string name="title_activity_prisubmaths">prisubmaths</string>
     <string name="title_activity_prisubssc">prisubssc</string>
     <string name="title_activity_prisubscien">prisubscien</string>
+    <string name="title_activity_login">Log In</string>
+
+    <!-- Strings related to login and Register -->
+    <string name="text_accounts">All Accounts</string>
+    <string name="hint_name">UserName</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">TSC Number</string>
+    <string name="hint_confirm_password">Confirm TSC Number</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Enter UserName you registered with</string>
+    <string name="error_message_email">Wrong Email Address</string>
+
+    <string name="error_message_password">Enter Valid TSC Number</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a Registered? Login</string>
+    <string name="error_email_exists">Email Address Exists</string>
+    <string name="hello">Hello</string>
+    <string name="title">KeExams</string>
+    <string name="error_password_match">No TSC Number</string>
+    <string name="error_valid_email_password">Wrong UserName or TSC Number</string>
+    <string name="action_settings">Settings</string>
+
 </resources>
