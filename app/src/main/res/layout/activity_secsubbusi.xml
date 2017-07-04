@@ -20,6 +20,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Paper 1"
+            android:textColor="#000000"
             android:onClick="busi1"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
@@ -27,6 +28,7 @@
 
         <Button
             android:id="@+id/paper2"
+            android:textColor="#000000"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/btnshapes"
